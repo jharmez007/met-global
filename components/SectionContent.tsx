@@ -13,10 +13,10 @@ const SectionContent = () => {
         {/* OUR SERVICE AREAS */}
         <div id="Get-Started" className="max-w-7xl mx-auto mb-16">
           <div className="mb-16 max-w-3xl md:px-6">
-            <p className="uppercase tracking-widest text-[#00d38c] font-mono font-semibold mb-4 max-sm:text-sm">
+            <p className="text-[12px] md:text-[14px] font-medium tracking-[3px] uppercase text-[var(--common-green)] mb-4 max-sm:text-sm">
               OUR SERVICE AREAS
             </p>
-            <h3 className="text-2xl md:text-6xl font-semibold text-white mt-2">
+            <h3 className="text-3xl md:text-6xl font-semibold text-white mt-2">
               International experience in Vetting specific industry for the
               specific Goods and Equipment (Medical and Non-Medical)
             </h3>
@@ -33,7 +33,7 @@ const SectionContent = () => {
           <div className="grid md:grid-cols-2 gap-30 mb-20 md:mb-40 md:px-6">
           {/* Card 1 */}
           <Link
-            href="/service/international-procurement-expertise"
+            href="/freight-forwarding"
             className="group bg-white overflow-hidden shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-2 flex flex-col min-h-72"
           >
             {/* Image area (relative so overlays can be absolute) */}
@@ -81,7 +81,7 @@ const SectionContent = () => {
 
           {/* Card 2 */}
           <Link
-            href="/service/healthcare-equipment-supply"
+            href="/export-services"
             className="group bg-white overflow-hidden shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-2 flex flex-col min-h-72"
           >
             {/* Image area */}
@@ -132,7 +132,7 @@ const SectionContent = () => {
         {/* FEATURES */}
         <div className="max-w-7xl mx-auto md:px-6 mb-20 md:mb-50">
           <div className="mb-10">
-            <p className="uppercase tracking-widest text-[#00d38c] font-mono font-semibold mb-4 max-sm:text-sm">
+            <p className="text-[12px] md:text-[14px] font-medium tracking-[3px] uppercase text-[var(--common-green)] mb-4 max-sm:text-sm">
               FEATURES
             </p>
             <h3 className="text-4xl md:text-6xl font-semibold text-white mt-2">

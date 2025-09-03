@@ -7,11 +7,11 @@ export default function HomeHero() {
       style={{ backgroundImage: "url('/hero-bg.jpg')" }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(10,27,43,.47)] via-[rgba(16,51,85,.98)] to-[#0a1b2b]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[rgba(10,27,43,.47)] via-[rgba(16,51,85,.94)] to-[#0a1b2b]" />
 
       <div className="relative z-10 w-full max-w-7xl mx-auto text-center md:text-left px-6">
         <div className="max-w-2xl">
-          <p className="uppercase tracking-widest text-[#00d38c] font-mono font-semibold mb-4 max-sm:text-sm">
+          <p className="text-[12px] md:text-[14px] font-medium tracking-[3px] uppercase text-[var(--common-green)] mb-4 max-sm:text-sm">
             Expertise Delivered
           </p>
           <h1 className="max-sm:text-2xl text-3xl md:text-4xl font-bold mb-4">
