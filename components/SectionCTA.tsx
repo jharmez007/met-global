@@ -23,8 +23,8 @@ const SectionCTA = () => {
             Trusted and Supportive
           </h3>
           <p className="mb-8 max-w-xl mx-auto text-base md:text-lg">
-            We are one of the most trusted service providers in international
-            procurement and supply. It is a great responsibility, and we cherish it.
+            We are one of the most trusted service providers in freight
+            forwarding and customs clearance. It is a great responsibility, and we cherish it.
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <Link

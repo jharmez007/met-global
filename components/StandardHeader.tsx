@@ -18,23 +18,20 @@ const StandardHeader = () => {
 
           {/* Heading */}
           <h1 className="max-sm:text-2xl text-3xl md:text-6xl font-bold mb-4 fade-slide delay-200">
-            More than 50 years of global experience
+            Decades of Trusted Freight Forwarding & Customs Expertise
           </h1>
 
           {/* Paragraph */}
           <p className="max-sm:text-sm text-lg text-gray-400 mb-14 md:max-w-xl fade-slide delay-400">
-            We are one of the leading international suppliers of goods and
-            equipment in Health, Transport, Education, Water, Agriculture sector.
-            Besides, we advise and assist the Borrowers, and companies in areas
-            such as procurement procedures and policies, consulting, management,
-            and taking our specialization in designing and implementing the
-            projects financed by the Multilateral Development Banks.
+             With years of proven experience, we specialize in international freight forwarding, customs clearance, and export support. 
+             Our team ensures smooth, efficient cargo movement across air, sea, and land, helping businesses expand confidently into global markets. 
+             We pride ourselves on delivering reliable logistics solutions tailored to each client’s unique needs.
           </p>
 
           {/* Button */}
           <div className="inline-block fade-slide delay-600">
             <Link
-              href="#Get-Started"
+              href="/contact"
               className="bg-transparent border hover:bg-white text-white hover:text-black px-8 py-4 font-mono rounded-full font-medium transition"
             >
               Get a Quote

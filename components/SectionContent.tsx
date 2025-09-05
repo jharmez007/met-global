@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import img from "../public/img.jpeg";
-import img2 from "../public/img2.jpeg";
+import img15 from "../public/img15.jpg";
+import img10 from "../public/img10.jpg";
 
 const SectionContent = () => {
   return (
@@ -17,16 +17,13 @@ const SectionContent = () => {
               OUR SERVICE AREAS
             </p>
             <h3 className="text-3xl md:text-6xl font-semibold text-white mt-2">
-              International experience in Vetting specific industry for the
-              specific Goods and Equipment (Medical and Non-Medical)
+              Expert Solutions in Freight Forwarding, Customs Clearance & Export Services
             </h3>
             <p className="mt-4 text-white/60 leading-relaxed max-w-lg">
-              Carrying an experience of over 50 years, we facilitate goods and
-              services for emergency and non-emergency projects financed by
-              multilateral development banks such as the World Bank and other
-              MDBs. Also, we help in the Capacity building in international
-              procurement procedures and policies, consulting services in
-              procurement, and the management of development projects.
+              With years of industry experience, we provide businesses with end-to-end logistics 
+              support. From managing complex freight forwarding operations to ensuring hassle-free 
+              customs clearance, we deliver reliable solutions that keep your supply chain moving. 
+              Our export services further help businesses expand confidently into global markets.
             </p>
           </div>
 
@@ -39,8 +36,8 @@ const SectionContent = () => {
             {/* Image area (relative so overlays can be absolute) */}
             <div className="relative h-70 w-full overflow-hidden">
               <Image
-                src={img} 
-                alt="International Procurement"
+                src={img15} 
+                alt="Freight Forwarding"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
 
@@ -49,21 +46,19 @@ const SectionContent = () => {
                 src="https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6db7c954d0f52794478357_wave_tri_01.svg"
                 alt=""
                 aria-hidden="true"
-                className="w-80 absolute bottom-0 left-0 pointer-events-none z-0 transition-transform duration-300 group-hover:-translate-y-1"
+                className="w-50 md:w-80 absolute bottom-0 left-0 pointer-events-none z-0 transition-transform duration-300 group-hover:-translate-y-1"
               />
             </div>
 
             {/* Content */}
             <div className="pt-11 pr-11 pb-12 pl-9 flex flex-col flex-1">
               <h5 className="text-[27px] font-semibold text-gray-900 mb-6">
-                International Procurement Expertise
+                Freight Forwarding
               </h5>
               <p className="text-lg text-gray-400 flex-1">
-                We support borrower countries and companies that are involved in
-                international procurement to structure their procurement systems,
-                establish project management units, assist clients in drafting
-                bidding documents, training operations, and procurement staff.
-                We are the experts in what we do.
+                Seamless freight forwarding solutions by air, sea, and land. 
+                We handle planning, routing, and execution to ensure your cargo 
+                arrives safely and on time.
               </p>
             </div>
 
@@ -81,13 +76,13 @@ const SectionContent = () => {
 
           {/* Card 2 */}
           <Link
-            href="/export-services"
+            href="/custom-clearance"
             className="group bg-white overflow-hidden shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-2 flex flex-col min-h-72"
           >
             {/* Image area */}
             <div className="relative h-70 w-full overflow-hidden">
               <Image
-                src={img2}
+                src={img10}
                 alt="Goods and Equipment Supply"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -97,21 +92,18 @@ const SectionContent = () => {
                 src="https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6db7c954d0f554af478358_wave_tri_03.svg"
                 alt=""
                 aria-hidden="true"
-                className="w-80 absolute top-0 pointer-events-none z-20 transition-transform duration-300 group-hover:-translate-y-1"
+                className="w-90 absolute top-0 right-0 pointer-events-none z-20 transition-transform duration-300 group-hover:-translate-y-1"
               />
             </div>
 
             {/* Content */}
             <div className="pt-11 pr-11 pb-12 pl-9 flex flex-col flex-1">
-              <h5 className="text-[27px] font-semibold text-gray-900 mb-2">
-                Goods and Equipment Supply
+              <h5 className="text-[27px] font-semibold text-gray-900 mb-6">
+                Customs Clearance
               </h5>
               <p className="text-lg text-gray-400 flex-1">
-                We are the providers of goods and equipment in various sectors such as
-                Health, Transport, Education, Water, Agriculture, and ensure the most
-                mutually-beneficial allocation of the required resources by the
-                borrower countries and all our clients for all emergency and
-                non-emergency projects.
+                Efficient customs clearance with full compliance. We handle all paperwork 
+                and regulations so your shipments clear borders without delays.
               </p>
             </div>
 
@@ -138,40 +130,40 @@ const SectionContent = () => {
             <h3 className="text-4xl md:text-6xl font-semibold text-white mt-2">
               Core Features
             </h3>
-            <p className="mt-4 text-white/60">We are the global experts in procurement</p>
+            <p className="mt-4 text-white/60">Reliable freight forwarding, seamless customs clearance, and tailored export support.</p>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-8">
             {/* Feature Cards */}
             {[
               {
-                title: "Consulting",
-                desc: "We provide consulting for the process of procurement",
+                title: "Global Freight Solutions",
+                desc: "Integrated air, sea, and land freight services designed to deliver your cargo on time, anywhere in the world",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddc685a85793e1a896d6a_box%20(3).svg",
               },
               {
-                title: "Management",
-                desc: "We take up the management of development projects",
+                title: "Customs Clearance Expertise",
+                desc: "We take up the management of customs clearance processes, ensuring compliance and efficiency",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddc772847ddf12d82175a_flammable%20(1).svg",
               },
               {
-                title: "Emergency and Non-emergency Projects",
-                desc: "We provide services in both emergency and non-emergency projects",
+                title: "Timely & Reliable Delivery",
+                desc: "We prioritize speed and efficiency, ensuring your goods reach their destination safely and on schedule",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddc9c90d82bed8f50f963_do-not-tilt%20(1).svg",
               },
               {
-                title: "Capacity Building",
-                desc: "We pitch in for Capacity building in international procurement procedures and policies",
+                title: "Tailored Logistics Services",
+                desc: "We provide customized logistics solutions to meet your specific needs.",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddcaf3b15463814d2cfe8_recycle%20(1).svg",
               },
               {
-                title: "International Supply",
-                desc: "We are suppliers of goods related to Health, Transport, Education, Water, and Agriculture",
+                title: "End-to-End Support",
+                desc: "From pickup to delivery, we manage every stage of your shipment with complete visibility.",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddcc0beb762a49b5d1e5e_delivery-truck%20(1).svg",
               },
               {
                 title: "Expertise",
-                desc: "We have decades of experience in Designing and implementing projects funded by development banks",
+                desc: "Years of expertise in freight forwarding and clearance backed by a dedicated professional team.",
                 icon: "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6ddccca48510fc95329083_logistics%20(1).svg",
               },
             ].map((feature, i) => (

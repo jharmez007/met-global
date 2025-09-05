@@ -1,10 +1,12 @@
+import { ContactHeader, ContactSection, OfficesCTA, ScrollToTop  } from "../../../components";
 
-const page = () => {
+export default function FreightForwardingPage() {
   return (
     <div>
-      Contact Us
+      <ContactHeader />
+      <ContactSection />
+      <OfficesCTA />
+      <ScrollToTop />
     </div>
-  )
+  );
 }
-
-export default page

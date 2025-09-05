@@ -34,9 +34,9 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-20">
             <Link
               href="/"
-              className={`text-sm tracking-wide uppercase font-mono transition duration-150 ease-in-out ${
+              className={`text-sm tracking-wide uppercase font-extralight font-mono transition duration-150 ease-in-out ${
                 pathname === "/"
-                  ? "text-[#00d38c] font-bold"
+                  ? "text-[#00d38c]"
                   : "text-white hover:text-[#00d38c]"
               }`}
             >
@@ -44,9 +44,9 @@ const Navbar = () => {
             </Link>
             <Link
               href="/about"
-              className={`text-sm tracking-wide uppercase font-mono transition duration-150 ease-in-out ${
+              className={`text-sm tracking-wide uppercase font-extralight font-mono transition duration-150 ease-in-out ${
                 pathname === "/about"
-                  ? "text-[#00d38c] font-bold"
+                  ? "text-[#00d38c]"
                   : "text-white hover:text-[#00d38c]"
               }`}
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
             {/* Dropdown */}
             <div className="group relative hover:visible">
               <div className="flex items-center py-6">
-                <button className="text-sm cursor-pointer text-white tracking-wide hover:text-[#00d38c] uppercase font-mono transition duration-150 ease-in-out">
+                <button className="text-sm cursor-pointer text-white font-extralight tracking-wide hover:text-[#00d38c] uppercase font-mono transition duration-150 ease-in-out">
                   What We Do
                 </button>
                 <svg
@@ -99,12 +99,12 @@ const Navbar = () => {
 
                 {/* Item 2 */}
                 <Link
-                  href="/export-services"
+                  href="/custom-clearance"
                   className="flex items-start space-x-3 p-3 hover:bg-gray-100 transition"
                 >
                   <Recycle className="h-6 w-6 text-[#00d38c] flex-shrink-0" />
                   <div>
-                    <h4 className="text-gray-900 font-medium">Export Services</h4>
+                    <h4 className="text-gray-900 font-medium">Customs Clearance</h4>
                     <p className="text-sm text-gray-500">Learn More</p>
                   </div>
                 </Link>
@@ -167,6 +167,7 @@ const Navbar = () => {
     className={`block px-3 py-2 font-medium ${
       pathname === "/" ? "text-green-500 hover:bg-gray-100" : "text-gray-700 hover:bg-gray-100"
     }`}
+    onClick={() => setIsOpen(false)}
   >
     Home
   </Link>
@@ -176,30 +177,33 @@ const Navbar = () => {
     className={`block px-3 py-2 font-medium ${
       pathname === "/about" ? "text-green-500 hover:bg-gray-100" : "text-gray-700 hover:bg-gray-100"
     }`}
+    onClick={() => setIsOpen(false)}
   >
     About
   </Link>
 
   <Link
-    href="/service/healthcare-equipment-supply"
+    href="/freight-forwarding"
     className={`block px-3 py-2 font-medium ${
-      pathname === "/service/healthcare-equipment-supply"
+      pathname === "/freight-forwarding"
         ? "text-green-500 hover:bg-gray-100"
         : "text-gray-700 hover:bg-gray-100"
     }`}
+    onClick={() => setIsOpen(false)}
   >
-    Healthcare Equipment Supply
+    Freight Forwarding
   </Link>
 
   <Link
-    href="/service/international-procurement-expertise"
+    href="/custom-clearance"
     className={`block px-3 py-2 font-medium ${
-      pathname === "/service/international-procurement-expertise"
+      pathname === "/custom-clearance"
         ? "text-green-500 hover:bg-gray-100"
         : "text-gray-700 hover:bg-gray-100"
     }`}
+    onClick={() => setIsOpen(false)}
   >
-    International Procurement Expertise
+    Customs Clearance
   </Link>
 
   <Link
@@ -207,6 +211,7 @@ const Navbar = () => {
     className={`block px-3 py-2 font-medium ${
       pathname === "/contact" ? "text-green-500 hover:bg-gray-100" : "text-gray-700 hover:bg-gray-100"
     }`}
+    onClick={() => setIsOpen(false)}
   >
     Contact
   </Link>

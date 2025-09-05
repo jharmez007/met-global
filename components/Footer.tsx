@@ -35,26 +35,26 @@ const Footer = () => {
             >
               <MapPin className="h-5 w-5 text-[#243444] mt-[2px]" />
               <p className="text-[14px] leading-5">
-                7206 Carroll Avenue Takoma Park MD 20912
+                7th Avenue A1 Close Festac Town Lagos
               </p>
             </Link>
 
             <Link
-              href="mailto:info@wahgloballogistics.com"
+              href="mailto:info@metgloballogistics.com"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
               <Mail className="h-5 w-5 text-[#243444] mt-[2px]" />
               <p className="text-[14px] leading-5">
-                info@wahgloballogistics.com
+                info@metgloballogistics.com
               </p>
             </Link>
 
             <Link
-              href="tel:+12406442239"
+              href="tel:+2347039216348"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
               <Phone className="h-5 w-5 text-[#243444] mt-[2px]" />
-              <p className="text-[14px] leading-5">+1 (240) 644-2239</p>
+              <p className="text-[14px] leading-5">+234 703 921 6348</p>
             </Link>
           </div>
 
@@ -87,16 +87,16 @@ const Footer = () => {
                 Services
               </div>
               <Link
-                href="/service/international-procurement-expertise"
+                href="/freight-forwarding"
                 className="text-[14px] leading-6 hover:text-black"
               >
-                International Procurement Consultancy
+                Freight Forwarding
               </Link>
               <Link
-                href="/service/healthcare-equipment-supply"
+                href="/custom-clearance"
                 className="text-[14px] leading-6 hover:text-black"
               >
-                Healthcare Equipment Supply
+                Customs Clearance
               </Link>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-200 mt-10 pt-6 gap-6">
           <div className="text-[12px] text-[#b6bcc1] text-center md:text-left">
-            {`Copyright @ ${new Date().getFullYear()} Wah Global Logistics.`}
+            {`Copyright @ ${new Date().getFullYear()} Met Connect Global Services.`}
           </div>
           <div className="flex gap-4">
             <Link

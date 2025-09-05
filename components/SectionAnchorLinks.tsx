@@ -54,12 +54,6 @@ const SectionAnchorLinks = () => {
           </Link>
         ))}
       </div>
-      {/* Enable smooth scroll globally */}
-      <style jsx global>{`
-        html {
-          scroll-behavior: smooth;
-        }
-      `}</style>
     </div>
   );
 };

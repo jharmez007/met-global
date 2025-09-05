@@ -17,10 +17,9 @@ const OurPeople = () => {
           </div>
           <div className="w-full md:w-1/2">
             <p className="text-slate-600 text-left text-base md:text-lg leading-relaxed mb-4">
-              A group of World Bank retirees and top consultants founded Wah
-              Global, intending to aid international procurement procedure and
-              policies, consulting, and providing the best quality goods and
-              services for global projects.
+              At MET Connect Global Services, our people make the difference. 
+              From freight forwarding experts to customs clearance specialists, 
+              our team works with one goal in mind — moving your cargo smoothly, safely, and on time.
             </p>
           </div>
         </div>
@@ -74,26 +73,26 @@ const OurPeople = () => {
           {[
             {
               title: "Delivery",
-              desc: `We sense that delivery is the most imperative aspect of any service. Hence, we focus on making the delivery of both assistance and the equipment to recourse the process of procurement.
+              desc: `At MET Connect Global Services, we know timing is everything in logistics.
 
-Our world-class, client-focused team is well-equipped with the importance of commitment and delivery of goods and services.`,
+That’s why we focus on speed, precision, and efficiency in moving your cargo across borders. From documentation to final delivery, we ensure your goods arrive safely and on schedule.`,
               btn: { text: "Get in Touch", link: "/contact" },
             },
             {
               title: "Support",
-              desc: `Support is crucial when it comes to assisting borrowers, manufacturers, and clients. We support them in polishing their procurement systems, establishing project implementation units, and rendering the necessary training.
+              desc: `International shipping can feel complex — we’re here to simplify it.
 
-Wah Global understands the value of support in the management of projects and stands firm to deliver the same.`,
+At MET Connect Global Services, we understand the value of support in the management of projects and stand firm to deliver the same.`,
               btn: {
                 text: "Get a Quote",
-                link: "/service/international-procurement-expertise",
+                link: "/contact",
               },
             },
             {
               title: "Trust",
-              desc: `Matters concerning the exchange of opinions and ideas stand on the pillar of trust, and we understand that it is the most valuable asset of any company.
+              desc: `Trust is the foundation of every lasting partnership. Our clients rely on us to navigate regulations, safeguard their cargo, and act in their best interest.
 
-We are a dedicated team of retirees and consultants in an attempt to establish trust with ministries and project management units.`,
+We build that trust through transparency, consistent service, and a proven record of delivering results.`,
               btn: { text: "Learn More", link: "/contact" },
             },
           ].map((value, idx) => (

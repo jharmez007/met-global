@@ -35,14 +35,12 @@ const SectionContent02 = () => {
                 OUR MISSION
               </p>
               <h2 className="text-white tracking-[-0.5px] mb-4 md:mb-5 text-3xl md:text-4xl font-bold">
-                Quality end-to-end service in providing goods and services
+                Delivering Seamless Global Freight & Customs Solutions
               </h2>
               <p className="text-white/60 text-sm md:text-base md:max-w-[450px]">
-                Wah Global believes in rendering the best services to its
-                clients. With a holistic approach towards providing goods and
-                services for all the projects, we ensure that all our processes
-                are bound with quality and assurance for all emergency and
-                non-emergency projects.
+                At MET Connect Global, our mission is to simplify international trade for our clients. 
+                We provide end-to-end freight forwarding, efficient customs clearance, and tailored export services. 
+                Every shipment is handled with precision, compliance, and reliability — ensuring your cargo reaches its destination without delays.
               </p>
 
               <div className="flex flex-col md:flex-row mt-6 md:mt-[45px] mb-6 md:mb-[35px] gap-6 md:gap-0">
@@ -54,8 +52,8 @@ const SectionContent02 = () => {
                     YEAR FOUNDED
                   </h6>
                   <p className="text-white/60 text-sm md:text-base md:max-w-[180px]">
-                    With the vision of bringing global procurement experts
-                    together
+                    With the vision of making freight forwarding and clearance 
+                    simpler, faster, and more reliable for businesses of all sizes.
                   </p>
                 </div>
                 <div className="w-full md:w-1/2 md:pr-[25px]">
@@ -66,8 +64,9 @@ const SectionContent02 = () => {
                     CLIENTS & PARTNERS
                   </h6>
                   <p className="text-white/60 text-sm md:text-base md:max-w-[180px]">
-                    We seek smooth implementation for and harmony in the
-                    interests of Ministries and Project Management Units
+                    Trusted by importers, exporters, and global partners who 
+                    count on us for efficient cargo movement, compliance, 
+                    and dependable logistics solutions.
                   </p>
                 </div>
               </div>
@@ -102,12 +101,11 @@ const SectionContent02 = () => {
                 We are the best in the domain
               </h2>
               <p className="text-white/60 text-sm md:text-base">
-                Wah global started with a client-focused approach. <br />
+                MET Connect Global began with a clear goal. <br />
                 <br />
-                We render our services in favour of our clients, borrowers, and
-                manufacturers, which makes us the preferred choice for
-                international procurement, advising, project management, and
-                supply.
+                To bridge the gap between businesses and global markets. 
+                From our early days, we’ve focused on putting clients first by offering transparent, reliable, and efficient freight solutions. 
+                Today, we stand as a trusted logistics partner, helping companies expand across borders with confidence.
               </p>
             </div>
           </div>

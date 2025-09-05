@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const SectionBreadCrumb = () => {
+const SectionBreadCrumb02 = () => {
   return (
     <div className="hidden md:flex bg-[#0a1b2b] h-[100px] overflow-hidden">
       <div className="bg-[var(--common-green)] flex justify-end items-center w-[65%] h-full px-[50px]">
@@ -36,12 +36,12 @@ const SectionBreadCrumb = () => {
 
           {/* Current Page Link */}
           <Link
-            href="/freight-forwarding"
+            href="/custom-clearance"
             aria-current="page"
             className="opacity-100 text-[16px] text-[var(--midnight-blue-2)] no-underline"
           >
             <strong>
-              Reliable Freight Forwarding Solutions
+              Customs Clearance
             </strong>
             <br />
           </Link>
@@ -51,4 +51,4 @@ const SectionBreadCrumb = () => {
   );
 };
 
-export default SectionBreadCrumb;
+export default SectionBreadCrumb02;
