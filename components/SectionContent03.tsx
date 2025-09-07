@@ -36,7 +36,7 @@ const SectionContent03 = () => {
                 Freight Forwarding Without Borders
               </h2>
               <p className="text-white/60 text-sm md:text-base md:max-w-[450px]">
-                At MET Connect Global Services, we don’t just move cargo we connect 
+                At MET Connect and Sons Nigeria Limited, we don’t just move cargo we connect 
                 businesses to the world. From a single container to complex, multi-route 
                 shipments, our freight forwarding team plans, coordinates, and delivers 
                 with precision. Every route is optimized, every detail handled, so your 
@@ -88,7 +88,7 @@ const SectionContent03 = () => {
               </h2>
               <p className="text-white/60 text-sm md:text-base">
                 Freight forwarding is more than transport, it’s about building connections. 
-                With MET Connect Global Services, you gain access to a trusted global 
+                With MET Connect and Sons Nigeria Limited, you gain access to a trusted global 
                 network across air, sea, and land. <br />
                 <br />
                 Whether you’re scaling into new markets 

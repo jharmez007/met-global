@@ -25,12 +25,12 @@ export default function ClearancePage() {
               title: "Benefit",
               desc: `We know that in logistics, time is everything. That’s why our freight forwarding and customs clearance services are built to save you time, reduce costs, and eliminate unnecessary delays.
 
-With MET Connect Global Services, you gain the benefit of a partner who keeps your cargo moving.`,
+With MET Connect and Sons Nigeria Limited, you gain the benefit of a partner who keeps your cargo moving.`,
               btn: { text: "Get in Touch", link: "/contact" },
             },
             {
               title: "Commitment",
-              desc: `At MET Connect Global Services, commitment means more than just moving goods. It means standing by our clients at every stage of the supply chain — from documentation to final delivery.
+              desc: `At MET Connect and Sons Nigeria Limited, commitment means more than just moving goods. It means standing by our clients at every stage of the supply chain — from documentation to final delivery.
 
 We are committed to reliability, transparency, and proactive support, so you can focus on your business while we handle the complexities of global trade.`,
               btn: {

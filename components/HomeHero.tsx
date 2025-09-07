@@ -18,7 +18,7 @@ export default function HomeHero() {
             Your Trusted Partner for Freight Forwarding & Customs Clearance
           </h1>
           <p className="max-sm:text-sm text-lg mb-14">
-            At MET Connect Global Services, we specialize in seamless freight forwarding and efficient customs clearance, 
+            At MET Connect and Sons Nigeria Limited, we specialize in seamless freight forwarding and efficient customs clearance, 
             helping businesses move goods across borders with confidence. From import 
             logistics to export support, we provide tailored solutions that keep your cargo 
             moving and your business growing.

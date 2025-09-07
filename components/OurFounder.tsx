@@ -18,8 +18,8 @@ const OurFounder = () => {
           <div className="w-full md:w-1/2">
             <p className="text-base leading-relaxed text-gray-600">
               With nearly three decades of experience in freight forwarding, customs
-              clearance, and international trade, <strong>Mr. Usman</strong> founded
-              MET Connect Global with a clear vision: to simplify cargo movement for
+              clearance, and international trade, <strong>Mr. Sani Usman Abba</strong> founded
+              MET Connect and Sons Nigeria Limited with a clear vision: to simplify cargo movement for
               businesses and exporters across the globe. Driven by a passion for
               logistics excellence and client-focused solutions, he established the
               company to deliver reliable, transparent, and efficient services that

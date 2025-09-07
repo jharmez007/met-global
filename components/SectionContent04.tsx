@@ -36,7 +36,7 @@ const SectionContent04 = () => {
                 Customs Clearance Made Simple
               </h2>
               <p className="text-white/60 text-sm md:text-base md:max-w-[450px]">
-                At MET Connect Global Services, we turn border formalities into a smooth 
+                At MET Connect and Sons Nigeria Limited, we turn border formalities into a smooth 
                 step in your supply chain.<br /><br />
                 From handling documentation and duties to ensuring 
                 full compliance with local regulations, our experts make clearance fast, 
@@ -89,7 +89,7 @@ const SectionContent04 = () => {
               </h2>
               <p className="text-white/60 text-sm md:text-base">
                 Every border has its rules — and we know how to navigate them. MET Connect 
-                Global Services provides proactive customs clearance solutions designed to 
+                and Sons Nigeria Limited provides proactive customs clearance solutions designed to 
                 cut through red tape and minimize risk. <br />
                 <br />
                With our guidance, your business 

@@ -49,10 +49,10 @@ const ContactSection = () => {
               <p className="max-w-[490px] text-[rgba(255,255,255,.52)]">
                 Email:{" "}
                 <a
-                  href="mailto:info@metgloballogistics.com"
+                  href="mailto:metconnectsonsnigltd@gmail.com"
                   className="text-[var(--common-green)]"
                 >
-                  info@metgloballogistics.com
+                  metconnectsonsnigltd@gmail.com
                 </a>
                 <br />
                 Phone:{" "}
@@ -69,7 +69,7 @@ const ContactSection = () => {
                   target="_blank"
                   className="text-[var(--common-green)] no-underline"
                 >
-                  @gurucharan-singh
+                  @sani-usman-abba
                 </Link>
               </p>
             </div>

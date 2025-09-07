@@ -24,7 +24,7 @@ const ContactHeader = () => {
           {/* Button */}
           <div className="inline-block fade-slide delay-600">
             <Link
-              href="#Get-Started"
+              href="tel:+2347039216348"
               className="flex bg-transparent border hover:opacity-50 text-white  px-8 py-4 font-mono rounded-full font-medium transition"
             >
               <img src="https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6db7c954d0f5573b47835a_phone.svg" alt="" className="w-4 inline-block mr-2"/>

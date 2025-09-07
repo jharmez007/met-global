@@ -38,7 +38,7 @@ const SectionContent02 = () => {
                 Delivering Seamless Global Freight & Customs Solutions
               </h2>
               <p className="text-white/60 text-sm md:text-base md:max-w-[450px]">
-                At MET Connect Global, our mission is to simplify international trade for our clients. 
+                At MET Connect and Sons Nigeria Limited, our mission is to simplify international trade for our clients. 
                 We provide end-to-end freight forwarding, efficient customs clearance, and tailored export services. 
                 Every shipment is handled with precision, compliance, and reliability — ensuring your cargo reaches its destination without delays.
               </p>
@@ -101,7 +101,7 @@ const SectionContent02 = () => {
                 We are the best in the domain
               </h2>
               <p className="text-white/60 text-sm md:text-base">
-                MET Connect Global began with a clear goal. <br />
+                MET Connect and Sons Nigeria Limited began with a clear goal. <br />
                 <br />
                 To bridge the gap between businesses and global markets. 
                 From our early days, we’ve focused on putting clients first by offering transparent, reliable, and efficient freight solutions. 

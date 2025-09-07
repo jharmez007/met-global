@@ -17,7 +17,7 @@ const OurPeople = () => {
           </div>
           <div className="w-full md:w-1/2">
             <p className="text-slate-600 text-left text-base md:text-lg leading-relaxed mb-4">
-              At MET Connect Global Services, our people make the difference. 
+              At MET Connect and Sons Nigeria Limited, our people make the difference. 
               From freight forwarding experts to customs clearance specialists, 
               our team works with one goal in mind — moving your cargo smoothly, safely, and on time.
             </p>
@@ -73,7 +73,7 @@ const OurPeople = () => {
           {[
             {
               title: "Delivery",
-              desc: `At MET Connect Global Services, we know timing is everything in logistics.
+              desc: `At MET Connect and Sons Nigeria Limited, we know timing is everything in logistics.
 
 That’s why we focus on speed, precision, and efficiency in moving your cargo across borders. From documentation to final delivery, we ensure your goods arrive safely and on schedule.`,
               btn: { text: "Get in Touch", link: "/contact" },
@@ -82,7 +82,7 @@ That’s why we focus on speed, precision, and efficiency in moving your cargo a
               title: "Support",
               desc: `International shipping can feel complex — we’re here to simplify it.
 
-At MET Connect Global Services, we understand the value of support in the management of projects and stand firm to deliver the same.`,
+At MET Connect and Sons Nigeria Limited, we understand the value of support in the management of projects and stand firm to deliver the same.`,
               btn: {
                 text: "Get a Quote",
                 link: "/contact",

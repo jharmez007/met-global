@@ -11,7 +11,7 @@ import {
   Facebook,
 } from "lucide-react";
 
-import logo from "../public/logo2.png";
+import logo from "../public/logo.png";
 
 const Footer = () => {
   return (
@@ -24,8 +24,8 @@ const Footer = () => {
             <Image
               src={logo}
               alt="Wah Global Logistics"
-              width={92}   
-              height={56}  
+              width={100}   
+              height={100}  
               priority
             />
 
@@ -33,19 +33,19 @@ const Footer = () => {
               href="#"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
-              <MapPin className="h-5 w-5 text-[#243444] mt-[2px]" />
+              <MapPin className="h-5 w-10 text-[#243444] mt-[2px]" />
               <p className="text-[14px] leading-5">
-                7th Avenue A1 Close Festac Town Lagos
+                Block N, NPA Complex Building Tincan Island Apapa Lagos, Lagos State, Nigeria
               </p>
             </Link>
 
             <Link
-              href="mailto:info@metgloballogistics.com"
+              href="mailto:metconnectsonsnigltd@gmail.com"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
               <Mail className="h-5 w-5 text-[#243444] mt-[2px]" />
               <p className="text-[14px] leading-5">
-                info@metgloballogistics.com
+                metconnectsonsnigltd@gmail.com
               </p>
             </Link>
 
@@ -105,7 +105,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-200 mt-10 pt-6 gap-6">
           <div className="text-[12px] text-[#b6bcc1] text-center md:text-left">
-            {`Copyright @ ${new Date().getFullYear()} Met Connect Global Services.`}
+            {`Copyright @ ${new Date().getFullYear()} Met Connect and Sons Nigeria Limited.`}
           </div>
           <div className="flex gap-4">
             <Link
