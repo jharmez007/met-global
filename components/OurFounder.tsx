@@ -3,6 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import img from "../public/image9.jpeg";
+import img1 from "../public/image4.jpeg";
+import img3 from "../public/image6.jpeg";
+import img4 from "../public/image7.jpeg";
+import img5 from "../public/image8.jpeg";
+import img6 from "../public/image10.jpeg";
+
+
 const OurFounder = () => {
   return (
     <div className="bg-white py-16">
@@ -28,29 +36,52 @@ const OurFounder = () => {
           </div>
         </div>
 
-        {/* Founder Images */}
+        {/* Founder Images Gallery */}
         <div id="Founder">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+            {/* Primary Featured Image */}
+            <div className="lg:col-span-2 lg:row-span-2">
+              <Link
+                href="#"
+                className="group relative block overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 h-full"
+              >
+                <div className="relative w-full bg-gray-100 overflow-hidden aspect-[3/4] lg:aspect-auto lg:h-full">
+                  <Image
+                    src={img1}
+                    alt="Founder Portrait - Primary"
+                    fill
+                    className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    priority
+                  />
+                  {/* Overlay on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              </Link>
+            </div>
+
+            {/* Secondary Images Grid */}
             {[
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdc7985df63fe37cfdc403b_0%20(1).jpeg",
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdc79a2ba9ea5a7ed8a4c12_0%20(2).jpeg",
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdc79be94ed09a2305f635c_1597581470963.jpeg",
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdc79dbc1e40d21bbb48f38_1596585867324.jpeg",
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdc7a2e2700c467056d8c5f_47168811_10157417282666554_884003242743169024_n.jpg",
-              "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5fdd13f3d273a38afe3fa277_385918_10150575914741554_819471354_n.jpg",
-            ].map((src, idx) => (
+              { src: img, alt: "Founder Portrait 1" },
+              { src: img3, alt: "Founder Portrait 3" },
+              { src: img4, alt: "Founder Portrait 4" },
+              { src: img5, alt: "Founder Portrait 5" },
+              { src: img6, alt: "Founder Portrait 6" },
+            ].map((item, idx) => (
               <Link
                 href="#"
                 key={idx}
-                className="block overflow-hidden "
+                className="group relative block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <img
-                  src={src}
-                  alt={`Founder ${idx + 1}`}
-                  width={600}
-                  height={400}
-                  className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-300"
-                />
+                <div className="relative w-full bg-gray-100 overflow-hidden aspect-[3/4]">
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    fill
+                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                  />
+                  {/* Overlay on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
               </Link>
             ))}
           </div>

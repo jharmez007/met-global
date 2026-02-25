@@ -4,6 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+import img from "../public/image.jpeg";
+import img2 from "../public/image2.jpeg";
+
 const OurPeople = () => {
   return (
     <div className="bg-white bg-[url('https://assets-global.website-files.com/5f6db7c95739ae553edf73eb/5f6db7c954d0f5d2c14782e4_bg_shade.svg')] bg-no-repeat bg-cover justify-center items-start py-20 px-[5%] md:py-[160px]">
@@ -26,32 +29,34 @@ const OurPeople = () => {
       </div>
 
       {/* People Grid */}
-      <div id="People" className="relative z-10 w-full max-w-[1240px] mx-auto flex justify-center md:justify-end -top-10 md:-top-[100px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-full md:max-w-[70%] mt-10 md:mt-[60px]">
+      <div id="People" className="relative z-10 w-full max-w-[1240px] mx-auto -top-10 md:-top-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 w-full mt-10 md:mt-[60px]">
           {[
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f7b074472bcbe3ee5da57fc_IMG_0591-min.png",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f7b072172bcbe1accda57e0_IMG_3496-min.png",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f7b076124cbf3b8a703fe34_IMG_0020-min.png",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f7b077a793e7f98694ee522_IMG_3875-min.png",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f7b0a2893f475484c3cef8e_IMG_9577-min.png",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f88a9aedc059f38550ecd9f_Gurcharan%27s%20dauter.jpeg",
-            "https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f9863d44754d59f092af21e_Wahglobal1.jpeg",
-          ].map((src, idx) => (
-            <div key={idx} className="inline-block max-w-full">
-              <img
-                src={src}
-                alt={`Team member ${idx + 1}`}
-                width={400}
-                height={400}
-                className="w-full h-auto mx-auto relative"
-              />
+            { src: img, alt: "Team member 1" },
+            { src: img2, alt: "Team member 2" },
+          ].map((item, idx) => (
+            <div key={idx} className="group relative overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+              <div className="relative w-full bg-gray-100 overflow-hidden aspect-auto">
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width={600}
+                  height={700}
+                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                  priority
+                />
+                {/* Overlay on hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
             </div>
           ))}
+        </div>
 
-          {/* CTA Button */}
+        {/* CTA Button */}
+        <div className="flex justify-center mt-12 md:mt-16">
           <Link
             href="/contact"
-            className="sm:absolute bottom-[10%] left-[55%] bg-[#00d38c] text-[#001632] rounded-full px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-medium mt-6 inline-block text-center font-mono"
+            className="bg-[#00d38c] text-[#001632] rounded-full px-8 md:px-10 py-4 md:py-5 text-base md:text-lg font-medium inline-block text-center font-mono hover:bg-[#00c77a] transition-colors duration-300"
           >
             Get in touch
           </Link>

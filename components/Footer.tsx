@@ -33,9 +33,19 @@ const Footer = () => {
               href="#"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
-              <MapPin className="h-5 w-10 text-[#243444] mt-[2px]" />
-              <p className="text-[14px] leading-5">
+              <MapPin className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <p className="flex-1 text-[14px] leading-5">
                 Block N, NPA Complex Building Tincan Island Apapa Lagos, Lagos State, Nigeria
+              </p>
+            </Link>
+
+            <Link
+              href="#"
+              className="flex items-start gap-3 hover:text-black transition-colors"
+            >
+              <MapPin className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <p className="flex-1 text-[14px] leading-5">
+                NO 67 Payne Crescent, Apapa Lagos                
               </p>
             </Link>
 
@@ -43,18 +53,18 @@ const Footer = () => {
               href="mailto:metconnectsonsnigltd@gmail.com"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
-              <Mail className="h-5 w-5 text-[#243444] mt-[2px]" />
-              <p className="text-[14px] leading-5">
+              <Mail className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <p className="flex-1 text-[14px] leading-5">
                 metconnectsonsnigltd@gmail.com
               </p>
             </Link>
 
             <Link
-              href="tel:+2347039216348"
+              href="tel:+2347066664197"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
-              <Phone className="h-5 w-5 text-[#243444] mt-[2px]" />
-              <p className="text-[14px] leading-5">+234 703 921 6348</p>
+              <Phone className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <p className="flex-1 text-[14px] leading-5">+234 706 666 4197</p>
             </Link>
           </div>
 

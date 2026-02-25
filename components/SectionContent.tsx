@@ -46,7 +46,7 @@ const SectionContent = () => {
                 src="https://cdn.prod.website-files.com/5f6db7c95739ae553edf73eb/5f6db7c954d0f52794478357_wave_tri_01.svg"
                 alt=""
                 aria-hidden="true"
-                className="w-50 md:w-80 absolute bottom-0 left-0 pointer-events-none z-0 transition-transform duration-300 group-hover:-translate-y-1"
+                className="w-50 md:w-60 absolute bottom-0 left-0 pointer-events-none z-0 transition-transform duration-300 group-hover:-translate-y-1"
               />
             </div>
 

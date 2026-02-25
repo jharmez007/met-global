@@ -31,7 +31,7 @@ const ContactSection = () => {
                 get back to you as soon as possible.
               </p>
               <a
-                href="mailto:info@wahgloballogistics.com?subject=Hello."
+                href="mailto:metconnectsonsnigltd@gmail.co?subject=Hello."
                 className="inline-block mt-6 bg-[var(--common-green)] text-[#001632] rounded-full px-9 py-4 text-lg font-medium"
               >
                 Chat with us
@@ -57,10 +57,10 @@ const ContactSection = () => {
                 <br />
                 Phone:{" "}
                 <a
-                  href="tel:+2347039216348"
+                  href="tel:+2347066664197"
                   className="text-[var(--common-green)]"
                 >
-                  234-703-921-6348
+                  234-706-666-4197
                 </a>
                 <br />
                 LinkedIn:{" "}
