@@ -9,6 +9,7 @@ import {
   Twitter,
   Instagram,
   Facebook,
+  MessageCircle,
 } from "lucide-react";
 
 import logo from "../public/logo.png";
@@ -63,8 +64,16 @@ const Footer = () => {
               href="tel:+2347066664197"
               className="flex items-start gap-3 hover:text-black transition-colors"
             >
-              <Phone className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <MessageCircle  className="w-5 h-5 text-[#243444] mt-[2px]" />
               <p className="flex-1 text-[14px] leading-5">+234 706 666 4197</p>
+            </Link>
+
+            <Link
+              href="tel:+2347066664197"
+              className="flex items-start gap-3 hover:text-black transition-colors"
+            >
+              <Phone className="w-5 h-5 text-[#243444] mt-[2px]" />
+              <p className="flex-1 text-[14px] leading-5">+234 703 921 6348</p>
             </Link>
           </div>
 
